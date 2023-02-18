@@ -1,0 +1,29 @@
+#btnBar{
+    top:50px;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.btn{
+    text-align: center;
+    background-color: yellow;
+    height:50px;
+    width:100px; 
+}
+
+
+#canvas{
+    position: absolute;
+    top:150px;
+    right:50%;
+    transform: translate(50%,0);
+    width:600px;
+    height:600px;
+    background-color: aqua;
+}
+
+.chess-square {
+    float: left;
+    background-color: #fff;
+ }

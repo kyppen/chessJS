@@ -18,12 +18,26 @@
     top:150px;
     right:50%;
     transform: translate(50%,0);
-    width:600px;
-    height:600px;
+    width:400px;
+    height:400px;
     background-color: aqua;
 }
 
 .chess-square {
+    position: relative;
     float: left;
     background-color: #fff;
  }
+
+ .numberNotation{
+    position: absolute;
+    left:0;
+    bottom:25%;
+ }
+
+ .letterNotation{
+    position: absolute;
+    right:5%;
+    top:35%;
+ }
+
